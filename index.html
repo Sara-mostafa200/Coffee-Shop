@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css file -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-light" data-bs-spy="scroll"  data-bs-target="#navId" >
+    <nav id="navId" class="position-fixed navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Coffee</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-mug-hot"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="first nav-link " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#items">Coffee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#specialDessert">Bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#checkOut">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#happy">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#JoinIn">Login</a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
+    <header id="home" class="d-flex align-items-center justify-content-between">
+      <div class="container">
+        <span class="">Welcome! </span>
+        <h1 class="my-3">We serve the richest coffee in the city!</h1>
+        <button class="btn btn-light rounded-5 fa-beat-fade">Order Now</button>
+      </div>
+    </header>
+    <main>
+      <section id="items" class="py-4">
+        <div class="items container">
+          <div class="row gy-5">
+            <div class="col-md-6 col-lg-3 col-12">
+              <div class="item text-center">
+                <img src="Assets/coffe.svg" alt="" />
+                <span class="d-block">Hot Coffee</span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-12">
+              <div class="item text-center">
+                <img src="Assets/cupwithice.svg" alt="" />
+                <span class="d-block">Cold Coffee </span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-12">
+              <div class="item text-center">
+                <img src="Assets/cup.svg" alt="" />
+                <span class="d-block">Cups of Coffee</span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-12">
+              <div class="item text-center">
+                <img src="Assets/cake.svg" alt="" />
+                <span class="d-block">Desserts                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="specialCoffee" class="py-4 text-center">
+        <h2 class="fw">Our Special Coffee</h2>
+        <div class="specialCoffee container py-3">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/lungoCaffee.jpg"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">Lungo Coffee</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/balgonaCoffee.jpg"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">Dalgona Coffee</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/icedCoffee.webp"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/filtercoffee.webp"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">Filter coffee</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="specialDessert" class="py-4 text-center">
+        <h2>Our Special Dessert</h2>
+        <div class="specialCoffee container py-3">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/gulabJamun.jpg"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">gulab Jamun</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/chocolateTiramisu.jpg"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">chocolate Tiramisu</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/Churros.jpg"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">Churros</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow-sm">
+                <img
+                  src="Assets/australianLamingtons.jpg"
+                  class="card-img-top p-2 rounded-4"
+                  alt="..."
+                />
+                <i
+                  class="heart fa-regular fa-heart fa-beat"
+                  style="--fa-animation-duration: 2s"
+                ></i>
+                <div class="card-body text-start">
+                  <h5 class="card-title">australian Laming</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                  </p>
+                  <div
+                    class="order d-flex justify-content-between align-items-center"
+                  >
+                    <span>Rs.199</span>
+                    <a href="#" class="btn btn-sm btn-primary fa-bounce"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="checkOut" class="py-4">
+        <div class="checkOut d-flex align-item-center justify-content-between">
+          <div class="leftImg w-25 d-none d-lg-block">
+            <img src="Assets/handseithcoffee.png" class="w-75" alt="" />
+          </div>
+          <div class="text text-center m-auto py-5 px-2">
+            <h2>Check out our best coffee betans</h2>
+            <button class="btn rounded-5 mt-3">Explore our products</button>
+          </div>
+          <div class="rightImg w-25 d-none d-lg-block">
+            <img src="Assets/coffee.png" class="w-100" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="happy" class="py-4">
+        <div class="happy container text-center">
+          <h2 class="m-auto">Our Happy Customers</h2>
+          <div class="row my-4 gy-3">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="review text-start rounded-1 shadow py-4 px-4">
+                <div
+                  class="top d-flex align-items-center justify-content-between"
+                >
+                  <div class="img d-flex align-items-center gap-2">
+                    <img src="Assets/person2.jpg" class="" alt="" />
+
+                    <div class="imgText">
+                      <p class="m-0 fw-medium">sara Wiliams</p>
+                      <span>Marketing Manager</span>
+                    </div>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique neque aut, facilis voluptate eaque necessitatibus.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="review text-start rounded-1 shadow-lg py-4 px-4">
+                <div
+                  class="top d-flex align-items-center justify-content-between"
+                >
+                  <div class="img d-flex align-items-center gap-2">
+                    <img src="Assets/person1.jpg" class="" alt="" />
+
+                    <div class="imgText">
+                      <p class="m-0 fw-medium">sam adams</p>
+                      <span>Software Engineer</span>
+                    </div>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique neque aut, facilis voluptate eaque necessitatibus.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="review text-start rounded-1 shadow py-4 px-4">
+                <div
+                  class="top d-flex align-items-center justify-content-between"
+                >
+                  <div class="img d-flex align-items-center gap-2">
+                    <img src="Assets/person3.jpg" class="" alt="" />
+
+                    <div class="imgText">
+                      <p class="m-0 fw-medium">angela sam</p>
+                      <span>Data Entry</span>
+                    </div>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique neque aut, facilis voluptate eaque necessitatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="JoinIn" class="">
+        <div class="JoinIn d-flex align-item-center justify-content-between ">
+          <div class="leftImg w-25 d-none position-relative d-md-block">
+            <img src="Assets/boffeeBeans.png" class="w-75" alt="" />
+          </div>
+          <div class="text text-center m-auto py-5 px-2">
+            <div class="title2">
+              <h2>Join in and get 15% off</h2>
+              <span>Lorem ipsum dolor sit amet consecteturamet consectetur.</span>
+            </div>
+            <div class="inputs d-flex  gap-3 my-3">
+            <input type="email" class="form-control" placeholder="Enter Email">
+            <button class="btn rounded-5 ">Subscribe</button></div>
+          </div>
+          <div class="rightImg w-25 position-relative d-none d-md-block">
+            <img src="Assets/boffeeBeans.png" class="w-100" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="  px-3">
+      <div class="py-4 container ">
+        <div class="row gap-5 gap-lg-0">
+          <div class="col-md-4">
+            <div class="logo">
+              <img class="w-75 my-4" src="Assets/logo.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-2 text-light ">
+            <h6 class="h6 my-3">Company</h6>
+            <span class="d-block mt-2 ">About Us</span>
+            <span class="d-block mt-2">Careers</span>
+            <span class="d-block mt-2">Press Kit</span>
+          </div>
+          <div class="col-2  text-light">
+            <h6 class="h6 my-3">Resources</h6>
+            <span class="d-block mt-2 ">Blog</span>
+            <span class="d-block mt-2">Help Center</span>
+            <span class="d-block mt-2">UX Resources </span>
+          </div>
+          <div class="col-2 text-light">
+            <h6 class="h6 my-3">Product</h6>
+            <span class="d-block mt-2 ">Pricing</span>
+            <span class="d-block mt-2">Enterprise</span>
+            <span class="d-block mt-2">Press Kit</span>
+          </div>
+          <div class="col-2 text-light ">
+            <h6 class="h6 my-3">Company</h6>
+            <span class="d-block mt-2 ">About Us</span>
+            <span class="d-block mt-2">Careers</span>
+            <span class="d-block mt-2">Press Kit</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
